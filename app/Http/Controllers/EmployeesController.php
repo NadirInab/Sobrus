@@ -37,14 +37,15 @@ class EmployeesController extends Controller
     }
 
     public function update(Request $req, $id){
+        // dd($id) ;
         $data = [
             'name' => $req->input('name'), 
             'role' => $req->input('role'), 
             'imag' => $req->input('image'), 
             'city' => $req->input('city'), 
             'linkdin' => $req->input('linkdin'),
-
         ] ;
+        // dd($data) ;
         Employee::where('id', $id)->update($data);
         return redirect('/') ;
     }

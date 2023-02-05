@@ -29,7 +29,7 @@ Route::get('delete/{id}',[EmployeesController::class, 'destroy'] ) ;
 
 Route::get('edit/{id}',[EmployeesController::class, 'edit'] ) ;
 
-Route::post('edit/update',[EmployeesController::class, 'update'] ) ;
+Route::post('edit/update/{id}',[EmployeesController::class, 'update'] ) ;
 
 Route::get('/About', function(){
     return view('about') ;

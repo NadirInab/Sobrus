@@ -4,7 +4,7 @@
         <a href="/add" class="btn btn-success mx-4" style="float:right;"> <small class="fw-bold ">+</small> Add Employee</a>
     </div>
 <div class="container text-center text-dark">
-    <h1>Sobrus Employees</h1>
+    <h1 class="dark-link">Sobrus Employees</h1>
 <div class="container d-flex justify-content-around " style="flex-wrap:wrap"> 
     @foreach ($employees as $employee)
     <div class="card card-body bg-light center-block text-left rounded mx-3 bg-muted m-3 text-dark" style="min-width:26%;max-width:30%" >
