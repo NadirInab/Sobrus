@@ -21,7 +21,7 @@ Route::get('/', function(){
 
 Route::get('/employees', [EmployeesController::class, 'index']);
 
-Route::get('employee/{id}',[EmployeesController::class, 'show'] ) ;
+Route::get('employees/{id}',[EmployeesController::class, 'show'] ) ;
 
 Route::post('saveEmployee',[EmployeesController::class, 'store'] ) ;
 

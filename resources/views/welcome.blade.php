@@ -18,7 +18,7 @@
         <small class="border-bottom fw-bold p-1"><i class="fa-sharp fa-solid fa-gem"></i> {{$employee['role']}}</small>
         <small class="border-bottom fw-bold p-1"><i class="fa-solid fa-location-dot text-danger"></i> {{$employee['city']}}</small>
         <div class="d-flex justify-content-around p-2 mt-2">
-            <a class="w-25 text-decoration-none text-success fw-bold btn btn-muted" href="/employee/{{$employee->id}}"> <i class="fa-solid fa-eye"></i></a>
+            <a class="w-25 text-decoration-none text-success fw-bold btn btn-muted" href="/employees/{{$employee->id}}"> <i class="fa-solid fa-eye"></i></a>
             <a class="w-25 text-decoration-none text-primary fw-bold btn btn-muted" href="/edit/{{$employee->id}}"> 
             <i class="fa-regular fa-pen-to-square"></i>
             </a>

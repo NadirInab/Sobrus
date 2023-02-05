@@ -1,0 +1,22 @@
+presentation Canva :
+
+seeders .
+search with laravel 
+Backend ?? 
+Http request ==>  .
+
+tech used in the backend .==> Why used a specifique tech ?? 
+
+
+
+
+laravel ==> elequent ==> http verbs 
+
+++++++++++++++++>
+
+blade engine ==> view ? 
+
+
+add all the emplyees
+
+add pagination to sobrus 

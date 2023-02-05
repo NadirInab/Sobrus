@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="form container w-50 fw-bold">
-        <h2 class="text-center">Add Employee </h2>
+        <h2 class="text-center">UpDate Employee </h2>
         <form action="update/{{$employee->id}}" method="POST">
             @csrf
             <div class="form-group">

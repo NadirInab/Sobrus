@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <div class="container text-center ">
-        <h2 class="hero border-bottom w-50 m-auto">Our Customer Satisfaction is Our Priority !
+        <h2 class="hero border-bottom w-50 m-auto">Our Customers Satisfaction is Our Priority !
         </h2>
     </div>
 
@@ -11,11 +11,10 @@
                 The leader in Cloud solutions provides its customers with professional teams, available and always ready to listen.
                 Being aware and accustomed to confidentiality
                 and data security, Sobrus ensures that all embedded information is encrypted according to international security standards . <br>
-                At Sobrus, our mission is to support healthcare professionals to help them develop their business, increase their turnover and give them broad visibility on everything that is happening in their business. 
+                At Sobrus, our mission is to support healthcare professionals to help them develop their business, increase their turnover and give them broad visibility on everything that is happening in their business. <br> 
                 Listening to our customers, supporting them, knowing their needs is a priority that allows us to present them with the best 100% Cloud Solutions.
             </p>
             <p>
-            
             </p>
         </div>
         <div class="col-6">
