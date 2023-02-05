@@ -5,12 +5,11 @@
     <div class="w-50 m-auto text-center mb-3">
         <img class="shad m-auto rounded-50" src="{{asset('images/'.$employee->imag.'.jfif')}}"  style="width:150px; border-radius:8px"/>
     </div>
-    <a class="text-decoration-none fw-bold" href="{{$employee['linkdin']}}">linkd in</a>
-    <h4>{{$employee->name}}</h4>
-    <small>{{$employee['role']}}</small>
-    <strong>{{$employee['city']}}</strong>
-    {{-- <a href="/employee/{{$employee->id}}">Show</a> --}}
-    <a class="btn btn-light border-2 text-secondary fw-bold w-25" href="/">back</a>
+    <a class="text-decoration-none fw-bold border-bottom" href="{{$employee['linkdin']}}"><h4> <i class="fa-brands fa-linkedin"></i></h4> </a>
+    <h4 class="border-bottom fw-bold"><i class="fa-solid fa-address-card"></i> {{$employee->name}}</h4>
+    <small class="border-bottom fw-bold"> <i class="fa-sharp fa-solid fa-gem"></i> {{$employee['role']}}</small>
+    <strong class="border-bottom fw-bold"><i class="fa-solid fa-location-dot text-danger"></i> {{$employee['city']}}</strong>
+    <a class="btn btn-light border-2 text-secondary fw-bold w-25" href="/"> <i class="fa-solid fa-backward"></i> back</a>
 </div>
 
 @endsection

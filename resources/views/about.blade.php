@@ -23,8 +23,8 @@
         </div>
     </div>
 
-    <div class="solutions pt-3">
-        <h2 class="text-center text-success border-bottom ">Our Solutions</h2>
+    <div id="solutions" class="solutions pt-3">
+        <h2 class="text-center text-success border-bottom fw-bold">Our Solutions</h2>
         <div class="container d-flex">
 
             <div class="limit w-75 m-auto p-3 border-2 border-end">
@@ -51,8 +51,8 @@
         </div>
     </div>
 
-    <div class="solutions pt-3">
-        <h2 class="text-center text-success border-bottom ">Our Tools</h2>
+    <div id="tools" class="solutions pt-3">
+        <h2 class="text-center text-success border-bottom fw-bold">Our Tools</h2>
         <div class="container d-flex">
 
             <div class="limit w-75 m-auto p-3 border-2 border-end">
@@ -79,14 +79,15 @@
         </div>
     </div>
 
-    <div class="mt-5 mb-5 text-center">
-            {{-- <h2 class="fw-bold text-danger m-3">Where to find Us ? </h2> --}}
+    <div id="contactUs" class="mt-5 mb-5 text-center">
+        <h2 class="fw-bold text-success border-bottom m-3">Contact Us : </h2>
+
+            {{-- <h2 class="fw-bold text-danger m-4">Where to find Us ? </h2> --}}
         <div class="d-flex">
             <div class="p-3">
-                <h2 class="fw-bold text-success border-bottom">Contact-Us : </h2>
                 <p class="left text-secondary fw-bold p-4 lh-lg">
-                    The Sobrus team is always at your disposal whatever your need. <br> Do not hesitate to contact us by filling out the form bellow . <br>
-                    Or be free to visit us in our company 
+                    The Sobrus team is always at your disposal whatever your need. <br> Do not hesitate to contact us by any of the means bellow . <br>
+                    Or you are most <strong class="text-danger fw-bolder"> welcome </strong> to visit us at our company .
                 </p>
                 {{-- <img class="flag rounded" src="https://sobrus.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmorocco.a045a723.svg&w=64&q=10" alt="" srcset=""> --}}
                 <ul class="list-group fw-bold ">
@@ -94,7 +95,7 @@
                  <strong class="text-danger"> Phone : </strong> +212 5 30 500 500 </li>
                  <li class="left list-group-item"> <strong class="text-danger"> Email : </strong> support@sobrus.com </li>
                  <li class="left list-group-item">
-                   <strong class="text-danger"> Address:</strong>  Villa N°222 rue Tetouan, Harhoura، Avenue Moustapha Assayeh,Temara
+                   <strong class="text-danger"> Address : </strong>  Villa N°222 rue Tetouan, Harhoura، Avenue Moustapha Assayeh,Temara
                  </li>
 
                 </ul>
@@ -114,7 +115,13 @@
           new google.maps.Marker({
             position: myLatLng,
             map,
-            title: "Sobrus",
+            label: {
+                fontSize: "10pt",
+                fontWeight: "bold", 
+                padding: "10px",
+                color : "DarkBlue",
+                text: "Sobrus"
+            }
           });
         }
   

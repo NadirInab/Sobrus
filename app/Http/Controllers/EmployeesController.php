@@ -23,17 +23,36 @@ class EmployeesController extends Controller
 
     public function index(){
         $employees = Employee::all() ;
-        // dd($employees) ;
         return view('welcome')->with('employees', $employees) ;
     }
 
     public function show($id){
-        // dd($id) ;
         $employee = Employee::find($id) ;
         return view('show')->with('employee', $employee) ;
     }
 
-    public function destroy($id){
-        return $id ;
+    public function edit($id){
+        $employee = Employee::find($id) ;
+        return view('edit')->with('employee', $employee) ;
     }
+
+    public function update(Request $req, $id){
+        $data = [
+            'name' => $req->input('name'), 
+            'role' => $req->input('role'), 
+            'imag' => $req->input('image'), 
+            'city' => $req->input('city'), 
+            'linkdin' => $req->input('linkdin'),
+
+        ] ;
+        Employee::where('id', $id)->update($data);
+        return redirect('/') ;
+    }
+
+    public function destroy($id){
+        $employee = Employee::find($id) ;
+        $employee->delete() ;
+        return redirect('/') ;
+    }
+ 
 }

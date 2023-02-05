@@ -32,6 +32,7 @@ body {
     height: 45px;
     width: 80px;
     border-radius: 10px;
+    color: rgb(20, 0, 154);
     
 }
 .shad {
@@ -52,5 +53,10 @@ body {
 .tools {
     width: 200px;
     height: 100px ;
+    border-radius: 10px;
+}
+.form {
+    border: 2px solid lightgrey;
+    padding: 10px;
     border-radius: 10px;
 }
