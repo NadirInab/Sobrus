@@ -28,6 +28,7 @@ class EmployeesController extends Controller
     }
 
     public function show($id){
+        // dd($id) ;
         $employee = Employee::find($id) ;
         return view('show')->with('employee', $employee) ;
     }

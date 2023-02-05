@@ -24,7 +24,9 @@ Route::get('/add', function(){
     return view('save') ;
 }) ;
 
-// Route::get('/employee/{$id}',[EmployeesController::class, 'show()'] )
+Route::get('employee/{id}',[EmployeesController::class, 'show'] ) ;
+
+// Route::get('/employee/{id}',[EmployeesController::class, 'destroy'] ) ;
 
 Route::post('saveEmployee', [EmployeesController::class, 'store']) ;
 

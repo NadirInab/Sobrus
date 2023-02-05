@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)http://127.0.0.1:8000/add -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./Sobrus_files/style.css">
+
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="rZkyRapTwjABfMuxbihUPzUyoVewRGsuHHTyZcN7">
+
+    <title>Sobrus</title>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="http://fonts.gstatic.com/">
+    <link href="./Sobrus_files/css" rel="stylesheet">
+
+    <link rel="preload" as="style" href="./Sobrus_files/app-67dcdfd2.css"><link rel="modulepreload" href="./Sobrus_files/app-68e8fc8f.js.download"><link rel="stylesheet" href="./Sobrus_files/app-67dcdfd2.css"><script type="module" src="./Sobrus_files/app-68e8fc8f.js.download"></script></head>
+<body>
+    <div id="app">
+        <nav class="navbar navbar-light bg-white shadow-sm">
+            <div class="container">
+                <img src="./Sobrus_files/logo.png" alt="" srcset="">
+                
+                <div class="d-flex w-50">
+                        <h4 class="mx-4 fw-bold"> <a class="text-decoration-none  text-info" href="http://127.0.0.1:8000/"> Welcome</a></h4>
+                        <h4 class="mx-4 fw-bold"> <a class="text-decoration-none text-info" href="http://127.0.0.1:8000/About"> About</a></h4>
+                </div>
+            </div>
+        </nav>
+
+        <main class="py-4">
+                <div class="container w-50">
+        <form action="http://127.0.0.1:8000/saveEmployee" method="POST">
+            <input type="hidden" name="_token" value="rZkyRapTwjABfMuxbihUPzUyoVewRGsuHHTyZcN7">            <div class="form-group">
+              <label>Name</label>
+              <input name="name" type="text" class="form-control" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label>Role</label>
+              <input name="role" type="text" class="form-control" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label>City</label>
+              <input name="city" type="text" class="form-control" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label>Image</label>
+              <input name="image" type="text" class="form-control" placeholder="Upload Image">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Linkdin Account</label>
+              <input name="linkdin" type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+        </main>
+    </div>
+
+
+</body></html>

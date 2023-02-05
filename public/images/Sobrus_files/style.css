@@ -1,0 +1,40 @@
+body {
+    font-style: italic;
+    overflow-x: hidden;
+}
+
+.card {
+    /* box-shadow: 2px 2px 0px 2px ; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.solutions {
+    background-color: whitesmoke;
+}
+
+#map{
+    width:60% ; 
+    height:400px;
+    float: right;
+    border-radius:20px
+}
+
+.lcimit {
+    /* width:50px; */
+    word-break:keep-all;
+    text-align:start;
+    padding: 10px;
+    /* word-wrap: break-word; */
+}
+.flag{
+    padding: 6px;
+    height: 45px;
+    width: 80px;
+    border-radius: 10px;
+    /* box-shadow: rgba(23, 23, 164, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px; */
+    
+}
+.left{
+    text-align: left;
+}
