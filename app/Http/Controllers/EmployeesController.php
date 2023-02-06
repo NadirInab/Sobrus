@@ -37,7 +37,6 @@ class EmployeesController extends Controller
     }
 
     public function update(Request $req, $id){
-        // dd($id) ;
         $data = [
             'name' => $req->input('name'), 
             'role' => $req->input('role'), 
@@ -45,7 +44,6 @@ class EmployeesController extends Controller
             'city' => $req->input('city'), 
             'linkdin' => $req->input('linkdin'),
         ] ;
-        // dd($data) ;
         Employee::where('id', $id)->update($data);
         return redirect('/') ;
     }
