@@ -82,14 +82,12 @@
     <div id="contactUs" class="mt-5 mb-5 text-center">
         <h2 class="fw-bold text-success border-bottom m-3">Contact Us : </h2>
 
-            {{-- <h2 class="fw-bold text-danger m-4">Where to find Us ? </h2> --}}
         <div class="d-flex">
             <div class="p-3">
                 <p class="left text-secondary fw-bold p-4 lh-lg">
                     The Sobrus team is always at your disposal whatever your need. <br> Do not hesitate to contact us by any of the means bellow . <br>
                     Or you are most <strong class="text-danger fw-bolder"> welcome </strong> to visit us at our company .
                 </p>
-                {{-- <img class="flag rounded" src="https://sobrus.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmorocco.a045a723.svg&w=64&q=10" alt="" srcset=""> --}}
                 <ul class="list-group fw-bold ">
                 <li class="left list-group-item">
                  <strong class="text-danger"> Phone : </strong> +212 5 30 500 500 </li>
@@ -116,15 +114,14 @@
             position: myLatLng,
             map,
             label: {
-                fontSize: "10pt",
+                fontSize: "20px",
                 fontWeight: "bold", 
                 padding: "10px",
-                color : "DarkBlue",
+                color : "MidnightBlue",
                 text: "Sobrus"
             }
           });
         }
-  
         window.initMap = initMap;
     </script>
     
