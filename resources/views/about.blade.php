@@ -44,6 +44,7 @@
                 <img src="https://sobrus.com/_next/image?url=%2Fassets%2Flogos%2Fsns.png&w=384&q=30" alt="" srcset="" class="p-4 d-block m-auto">
                 <p class="text-secondary fw-bold">
                    Sobrus SNS High-performance software for managing online orders between pharmacists and wholesaler-distributors.
+                   <br>
                 </p>
                 <small><a href="https://sns.sobrus.com/">Sobrus-SNS.</a></small>
             </div>
