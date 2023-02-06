@@ -16,7 +16,6 @@ class EmployeesController extends Controller
             'linkdin' => $req->input('linkdin'),
 
         ] ;
-
         Employee::create($data) ;
         return redirect('/') ;
     }
