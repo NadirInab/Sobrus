@@ -1,0 +1,58 @@
+Front-end developement : ==> mostly focused on what the user see ==> client side .
+==> front-end languages ==> HTML / CSS / JS /==> main work is creating and redesigning websites 
+=======================>
+What is the backe-end : 
+Back end development refers to the server side of an application 
+and everything that communicates between the database and the browser.
+Where we primarily focused on how the website works .
+Adding, updating,deleting, ==> making changes
+Monitoring the functionality of the website . 
+
+=======================>
+The backend consist of three parts :
+Server ==> Application ==> Database .
+The server. ==> listening for incoming requests ==> This is the computer that receives requests.==> 
+The app. This is the application running on the server that listens for requests, retrieves information from the database, and sends a response.
+The database. Databases are used to organize and persist, store data.
+Request response cycle ; 
+======================>
+Tech stack :
+Java(spring-Boot), PHP(laravel, symphony, cakephp, codigniter), Ruby on Rails, Python(Django), javascript(node js, express )
+
+======================>
+Th backend dev mainly focus on : 
+Site responsiviness and speend ==> 
+these languages are for craeting dynamic websites . ==> store data in the database .
+
+======================>
+*Backend is the code that runs on the server => recieve request from the client .
+*The clients are anything that send requests to the back-end .(App runing on another server, Browser, )
+*contains the logic to send the appropriate data back to the client .
+
+======================>
+What is HTTP ?
+HTTP stands for Hypertext Transfer Protocol and is used to structure requests and responses over the internet. 
+HTTP requires data to be transferred from one point to another over the network.
+
+======================>
+HTTP verbs .
+GET — retrieve a specific resource (by id) or a collection of
+ resources( corresponds to any entity on the web, including HTML files, stylesheets, images, videos, and scripts)
+POST — create a new resource
+PUT — update a specific resource (by id)
+DELETE — remove a specific resource by id
+======================>
+What is an API with example?
+APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
+JSON is a text-based data format that is used to store and transfer data.
+{
+"name":"nadir", 
+"job" :"Nothing"
+}
+advantages :
+Self-describing
+Easy to manipulate
+It can be used with various modern programming languages such as Python, Ruby, Java, etc.
+*======================>
+REST API ==> it's an api that follows a set of rules for an application and server to communicate with each other . 
+================================================================================================================================================
