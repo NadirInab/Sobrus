@@ -4,7 +4,6 @@
         <h2 class="hero border-bottom w-50 m-auto">Our Customers Satisfaction is Our Priority !
         </h2>
     </div>
-
     <div class="row d-flex p-3 m-3">
         <div class="col-6">
             <p class="text-secondary fw-bold w-100 h-100 p-4 lh-lg">
@@ -29,23 +28,24 @@
             <div class="limit w-75 m-auto p-3 border-2 border-end">
                 <img src="https://sobrus.com/_next/image?url=%2Fassets%2Flogos%2Fpharma.png&w=384&q=30" alt="" srcset="" class="p-4 d-block m-auto">
                 <p class="text-secondary fw-bold">
-                    Sobrus Pharma is a pharmacy management software designed in collaboration with pharmacists for pharmacists. Fully aware of the increasing difficulties encountered in pharmacy management,
+                    <br>
+                    Sobrus Pharma is a pharmacy management software designed in collaboration with pharmacists for pharmacists. Fully aware of the increasing difficulties encountered in pharmacy management.
                 </p>
-                <small>web-site : <a href="#">Lorem, ipsum.</a></small>
+                <small><a href="http://pharma.sobrus.com/">Soburs-Pharma.</a></small>
             </div>
             <div class="limit w-75 m-auto  p-3 border-2 border-end mx-2">
                 <img src="https://sobrus.com/_next/image?url=%2Fassets%2Flogos%2Flabs.png&w=384&q=30" alt="" srcset="" class="p-4 d-block m-auto">
                 <p class="text-muted fw-bold ">
-                    Sobrus Pharma is a pharmacy management software designed in collaboration with pharmacists for pharmacists. Fully aware of the increasing difficulties encountered in pharmacy management,
+                    Sobrus Labs is the software for managing customer relations, communication and order taking between pharmacies, healthcare establishments and pharmaceutical laboratories.
                 </p>
-                <small>web-site : <a href="#">Sobrus Labs</a></small>
+                <small> <a href="https://sobrus.com/labs">Sobrus-lab</a></small>
             </div>
             <div class="limit w-75 m-auto  p-3">
                 <img src="https://sobrus.com/_next/image?url=%2Fassets%2Flogos%2Fsns.png&w=384&q=30" alt="" srcset="" class="p-4 d-block m-auto">
                 <p class="text-secondary fw-bold">
-                    Sobrus Pharma is a pharmacy management software designed in collaboration with pharmacists for pharmacists. Fully aware of the increasing difficulties encountered in pharmacy management,
+                   Sobrus SNS High-performance software for managing online orders between pharmacists and wholesaler-distributors.
                 </p>
-                <small>web-site : <a href="#">Lorem, ipsum.</a></small>
+                <small><a href="https://sns.sobrus.com/">Sobrus-SNS.</a></small>
             </div>
         </div>
     </div>
@@ -57,23 +57,23 @@
             <div class="limit w-75 m-auto p-3 border-2 border-end">
                 <img src="https://monordonnance.sobrus.com/static/media/LogoMonOrdonnance.7a6aa3db.png" alt="" srcset="" class="tools p-4 d-block m-auto">
                 <p class="text-secondary fw-bold">
-                    Sobrus Pharma is a pharmacy management software designed in collaboration with pharmacists for pharmacists. Fully aware of the increasing difficulties encountered in pharmacy management,
+                    The first software in Africa, 100% free, dedicated to specialists and general practitioners, which allows you to manage your prescriptions and medical prescriptions with ease thanks to its intuitive interface and an available Support team
                 </p>
-                <small>web-site : <a href="#">Lorem, ipsum.</a></small>
+                <small> <a href="https://monordonnance.sobrus.com/">monordonnance</a></small>
             </div>
             <div class="limit w-75 m-auto  p-3 border-2 border-end mx-2">
                 <img src="http://monmedicament.ma/images/logo.png" alt="" srcset="" class="p-4 d-block m-auto">
-                <p class="text-muted fw-bold ">
-                    Sobrus Pharma is a pharmacy management software designed in collaboration with pharmacists for pharmacists. Fully aware of the increasing difficulties encountered in pharmacy management,
+                <p class="text-muted fw-bold ">      
+                    By registering on Quelmedicament.ma you will be able to receive all the news on medicines in Morocco, both price changes and new products marketed on the market.
                 </p>
-                <small>web-site : <a href="#">Sobrus Labs</a></small>
+                <small><a href="http://monmedicament.ma/">monmedicament</a></small>
             </div>
             <div class="limit w-75 m-auto  p-3">
                 <img src="https://monpharmacien.sobrus.com/static/media/Logo%20MonPharmacien.e5de99e4.png" alt="" srcset="" class="tools p-4 d-block m-auto">
                 <p class="text-secondary fw-bold">
-                    Sobrus Pharma is a pharmacy management software designed in collaboration with pharmacists for pharmacists. Fully aware of the increasing difficulties encountered in pharmacy management,
+                    The objective of MonPharmacien is to improve the pharmacist-patient relationship, for better access to care and better follow-up of patients with their community pharmacy.
                 </p>
-                <small>web-site : <a href="#">Lorem, ipsum.</a></small>
+                <small><a href="https://monpharmacien.sobrus.com/">monpharmacien</a></small>
             </div>
         </div>
     </div>
