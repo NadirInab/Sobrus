@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+<div>
  <div class="container border-3 text-center " >
         <a href="/add" class="btn btn-success mx-4" style="float:right;"> <small class="fw-bold ">+</small> Add Employee</a>
     </div>
@@ -28,5 +29,8 @@
         </div>
     </div>
     @endforeach
+</div>
+{{-- {{$employees->links() }} --}}
+{{$employees->links('pagination::bootstrap-4')}}
 </div>
 @endsection
