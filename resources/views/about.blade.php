@@ -117,7 +117,7 @@
                 fontSize: "20px",
                 fontWeight: "bold", 
                 padding: "10px",
-                color : "MidnightBlue",
+                color : "Aqua",
                 text: "Sobrus"
             }
           });
