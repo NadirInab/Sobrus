@@ -8,10 +8,16 @@ use Illuminate\Http\Request;
 class EmployeesController extends Controller
 {
     public function store(Request $req){
+        $req->validate([
+            "name"=> "required", 
+            "role"=> "required", 
+            "city"=> "required", 
+            "linkdin"=> "required"
+        ]) ;
         $data = [
             'name' => $req->input('name'), 
             'role' => $req->input('role'), 
-            'imag' => $req->input('image'), 
+            'imag' => preg_replace('/\.[^.]+$/','',$req->input('image')), 
             'city' => $req->input('city'), 
             'linkdin' => $req->input('linkdin'),
 
@@ -36,10 +42,16 @@ class EmployeesController extends Controller
     }
 
     public function update(Request $req, $id){
+        $req->validate([
+            'name' => 'required',
+            'role' => 'required',
+            'city' => 'required',
+            'linkdin'=> 'required'
+        ]) ;
         $data = [
             'name' => $req->input('name'), 
             'role' => $req->input('role'), 
-            'imag' => $req->input('image'), 
+            'imag' => preg_replace('/\.[^.]+$/','',$req->input('image')), 
             'city' => $req->input('city'), 
             'linkdin' => $req->input('linkdin'),
         ] ;
