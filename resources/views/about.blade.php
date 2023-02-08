@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+
     <div class="container text-center ">
         <h2 class="hero border-bottom w-50 m-auto">Our Customers Satisfaction is Our Priority !
         </h2>
