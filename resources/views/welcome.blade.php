@@ -4,9 +4,21 @@
  <div class="container border-3 text-center " >
         <a href="/add" class="btn btn-success mx-4" style="float:right;"> <small class="fw-bold ">+</small> Add Employee</a>
     </div>
-<div class="container text-center text-dark">
-    <h1 class="text-secondary">Sobrus Employees</h1>
-<div class="container d-flex justify-content-around " style="flex-wrap:wrap"> 
+<div class="container text-dark">
+    
+    <div class="container text-center">
+        <h2 class="text-secondary mx-4 border-bottom"><span class="text-info fw-bold">Sobrus </span>Employees  </h2>
+        <div class="input-group mx-4">
+            <form action="/home/employees/search" method="GET" class="form-outline d-flex w-50 m-auto p-3">
+                <input name="query" type="search" id="form1" class="form-control"  placeholder="Search for employee"/>
+                <button type="submit" class="btn btn-primary mx-2">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    
+<div class="container d-flex justify-content-around text-center" style="flex-wrap:wrap"> 
     @foreach ($employees as $employee)
     <div class="card card-body bg-light center-block text-left rounded mx-3 bg-muted m-3 text-dark" style="min-width:26%;max-width:30%" >
         <div class="w-50 m-auto text-center mb-3">
@@ -30,7 +42,6 @@
     </div>
     @endforeach
 </div>
-{{-- {{$employees->links() }} --}}
 {{$employees->links('pagination::bootstrap-4')}}
 </div>
 @endsection
