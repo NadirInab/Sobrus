@@ -3,7 +3,7 @@
 @section('content')
     <div class="form container w-50 fw-bold">
       
-        <h1 class="text-center text-secondary"> <i class="fa-solid fa-user-plus"></i> </h1>
+        <h1 class="text-center text-secondary border-bottom p-2"> <i class="fa-solid fa-user-plus"></i> Add Employee </h1>
         <form action="saveEmployee" method="POST">
             @csrf
             <div class="form-group p-1">
