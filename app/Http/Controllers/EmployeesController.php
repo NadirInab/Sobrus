@@ -23,7 +23,7 @@ class EmployeesController extends Controller
 
         ] ;
         Employee::create($data) ;
-        return redirect('/') ;
+        return redirect(url()->previous()) ;
     }
 
     public function index(){
@@ -64,5 +64,10 @@ class EmployeesController extends Controller
         $employee->delete() ;
         return redirect('/') ;
     }
- 
+
+    public function search(){
+        $search = $_GET['query'] ;
+        $employee = Employee::where('name', 'LIKE', '%'.$search.'%')->get() ;
+        return view('search')->with('employees', $employee) ;
+    }
 }
