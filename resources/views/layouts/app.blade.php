@@ -18,11 +18,11 @@
             <div class="container">
                 <img src="https://sobrus.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.ca5b804c.png&w=384&q=100" alt="" srcset="">
                 <div id="navbar" class="d-flex w-75" >
-                        <h5 class="mx-4 fw-bold mx-5"><a class="text-decoration-none  text-info" href="/"> Home</a></h5>
-                        <h5 class="mx-4 fw-bold"> <a class="text-decoration-none text-info"  href="/About"> About</a></h5>
-                        <h5 class="mx-4 fw-bold"> <a class="text-decoration-none text-info"  href="#solutions"> Solutions</a></h5>
-                        <h5 class="mx-4 fw-bold"> <a class="text-decoration-none text-info"  href="#tools"> Tools</a></h5>
-                        <h5 class="mx-4 fw-bold"> <a class="text-decoration-none text-info"  href="#contactUs"> Contact Us</a></h5>
+                        <h5 class="mx-4 fw-bold mx-5"><a class="text-decoration-none  text-dark" href="/"> Home</a></h5>
+                        <h5 class="mx-4 fw-bold"> <a class="text-decoration-none text-dark"  href="/About"> About</a></h5>
+                        <h5 class="mx-4 fw-bold"> <a class="text-decoration-none text-dark"  href="#solutions"> Solutions</a></h5>
+                        <h5 class="mx-4 fw-bold"> <a class="text-decoration-none text-dark"  href="#tools"> Tools</a></h5>
+                        <h5 class="mx-4 fw-bold"> <a class="text-decoration-none text-dark"  href="#contactUs"> Contact Us</a></h5>
                 </div>
             </div>
         </nav>
