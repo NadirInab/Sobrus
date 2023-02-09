@@ -3,7 +3,6 @@
 use App\Http\Controllers\EmployeesController;
 use Illuminate\Support\Facades\Route;
 
-
 Route::get('/', function(){
     return redirect('/home/employees') ;
 });
@@ -19,6 +18,8 @@ Route::get('delete/{id}',[EmployeesController::class, 'destroy'] ) ;
 Route::get('edit/{id}',[EmployeesController::class, 'edit'] ) ;
 
 Route::post('edit/update/{id}',[EmployeesController::class, 'update'] ) ;
+
+Route::get('/home/employees/search', [EmployeesController::class, 'search']) ;
 
 Route::get('/About', function(){
     return view('about') ;
