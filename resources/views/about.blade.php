@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="container text-center ">
-        <h2 class="hero border-bottom w-50 m-auto">Our Customers Satisfaction is Our Priority !
+        <h2 class="hero text-secondary fw-bold border-bottom w-50 m-auto">Our Customers Satisfaction is Our Priority 
         </h2>
     </div>
     <div class="row d-flex p-3 m-3">
@@ -23,14 +23,14 @@
     </div>
 
     <div id="solutions" class="solutions pt-3">
-        <h2 class="text-center text-success border-bottom fw-bold">Our Solutions</h2>
+        <h3 class="Our text-center text-success border-bottom fw-bold w-25 m-auto">Our Solutions <i class="fa-sharp fa-solid fa-notes-medical"></i> </h3>
         <div class="container d-flex">
 
             <div class="limit w-75 m-auto p-3 border-2 border-end">
                 <img src="https://sobrus.com/_next/image?url=%2Fassets%2Flogos%2Fpharma.png&w=384&q=30" alt="" srcset="" class="p-4 d-block m-auto">
                 <p class="text-secondary fw-bold">
                     <br>
-                    Sobrus Pharma is a pharmacy management software designed in collaboration with pharmacists for pharmacists. Fully aware of the increasing difficulties encountered in pharmacy management.
+                    Sobrus Pharma is a pharmacy management software designed in collaboration with pharmacists for pharmacies. Fully aware of the increasing difficulties encountered in pharmacy management.
                 </p>
                 <small><a href="http://pharma.sobrus.com/">Soburs-Pharma.</a></small>
             </div>
@@ -53,7 +53,7 @@
     </div>
 
     <div id="tools" class="solutions pt-3">
-        <h2 class="text-center text-success border-bottom fw-bold">Our Tools</h2>
+        <h3 class="Our text-center text-success border-bottom fw-bold w-25 m-auto">Our Tools <i class="fa-solid fa-hospital-user"></i> </h3>
         <div class="container d-flex">
 
             <div class="limit w-75 m-auto p-3 border-2 border-end">
