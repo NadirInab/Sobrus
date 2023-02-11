@@ -1,6 +1,7 @@
 Front-end developement : ==> mostly focused on what the user see ==> client side .
 ==> front-end languages ==> HTML / CSS / JS /==> main work is creating and redesigning websites 
 =======================>
+
 What is the backe-end : 
 Back end development refers to the server side of an application 
 and everything that communicates between the database and the browser.
@@ -16,10 +17,11 @@ The app. This is the application running on the server that listens for requests
 The database. Databases are used to organize and persist, store data.
 Request response cycle ; 
 ======================>
+
 Tech stack :
 Java(spring-Boot), PHP(laravel, symphony, cakephp, codigniter), Ruby on Rails, Python(Django), javascript(node js, express )
-
 ======================>
+
 Th backend dev mainly focus on : 
 Site responsiviness and speend ==> 
 these languages are for craeting dynamic websites . ==> store data in the database .
@@ -31,6 +33,7 @@ these languages are for craeting dynamic websites . ==> store data in the databa
 
 ======================>
 What is HTTP ?
+set of rules . ==> to establish a connection . 
 HTTP stands for Hypertext Transfer Protocol and is used to structure requests and responses over the internet. 
 HTTP requires data to be transferred from one point to another over the network.
 
@@ -56,3 +59,31 @@ It can be used with various modern programming languages such as Python, Ruby, J
 *======================>
 REST API ==> it's an api that follows a set of rules for an application and server to communicate with each other . 
 ================================================================================================================================================
+
+Api ??
+=============================================>
+Back-end developers are the experts who build and maintain the mechanisms that process data and perform actions on websites. Unlike front-end developers, who control everything you can see on a website,
+ back-end developers are involved in data storage, security, and other server-side functions that you cannot see.
+====================================>
+history 
+
+his story . 
+skills ==> enough knowledge in databases ==> 
+networking ==> web ==> protocolo ==> http == ftp == websockets ==> 
+whu oop ==> we handle data as objects 
+functional =++ actions .
+==> design patterns ==> creational ==> behavioral ==> signlton
+
+==> solution commun probleme .
+
+multitendancy architecture ==> tenant . 
+sigbnle softaware aplication ==> service many client . 
+not each client ==> create his own app . ==> addapte business as he want ==> at end one software that serve many client . 
+db schema . 
+
+what is tenant . 
+
+cleint == tenant ===> organization ; User ; many user ==> each one with his role ==>
+VPS ==> 
+
+sois en bone santé

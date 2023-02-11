@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="container text-center ">
-        <h2 class="hero text-secondary fw-bold border-bottom w-50 m-auto">Our Customers Satisfaction is Our Priority 
+        <h2 class="hero text-success fw-bold border-bottom w-75 m-auto"> <i class="fa-sharp fa-solid fa-circle-check"></i> Our Customers Satisfaction is Our Priority 
         </h2>
     </div>
     <div class="row d-flex p-3 m-3">
@@ -23,7 +23,7 @@
     </div>
 
     <div id="solutions" class="solutions pt-3">
-        <h3 class="Our text-center text-success border-bottom fw-bold w-25 m-auto">Our Solutions <i class="fa-sharp fa-solid fa-notes-medical"></i> </h3>
+        <h3 class="Our text-center text-secondary border-bottom fw-bold w-25 m-auto">Our Solutions <i class="fa-sharp fa-solid fa-notes-medical"></i> </h3>
         <div class="container d-flex">
 
             <div class="limit w-75 m-auto p-3 border-2 border-end">
@@ -44,8 +44,9 @@
             <div class="limit w-75 m-auto  p-3">
                 <img src="https://sobrus.com/_next/image?url=%2Fassets%2Flogos%2Fsns.png&w=384&q=30" alt="" srcset="" class="p-4 d-block m-auto">
                 <p class="text-secondary fw-bold">
-                   Sobrus SNS High-performance software for managing online orders between pharmacists and wholesaler-distributors.
                    <br>
+                   Sobrus SNS High-performance software for managing online orders between pharmacists and wholesaler-distributors.
+                  <span class="invisible">> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, ratione? </span>
                 </p>
                 <small><a href="https://sns.sobrus.com/">Sobrus-SNS.</a></small>
             </div>
@@ -53,7 +54,7 @@
     </div>
 
     <div id="tools" class="solutions pt-3">
-        <h3 class="Our text-center text-success border-bottom fw-bold w-25 m-auto">Our Tools <i class="fa-solid fa-hospital-user"></i> </h3>
+        <h3 class="Our text-center text-secondary border-bottom fw-bold w-25 m-auto">Our Tools <i class="fa-solid fa-hospital-user"></i> </h3>
         <div class="container d-flex">
 
             <div class="limit w-75 m-auto p-3 border-2 border-end">
@@ -81,7 +82,7 @@
     </div>
 
     <div id="contactUs" class="mt-5 mb-5 text-center">
-        <h2 class="fw-bold text-success border-bottom m-3">Contact Us : </h2>
+        <h2 class="fw-bold text-secondary border-bottom m-3">Contact Us : </h2>
 
         <div class="d-flex">
             <div class="p-3">
