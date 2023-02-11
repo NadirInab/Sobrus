@@ -42,6 +42,6 @@
     </div>
     @endforeach
 </div>
-{{$employees->links('pagination::bootstrap-4')}}
+    <span class="container d-flex align-items-center justify-content-center">{{$employees->links('pagination::bootstrap-4')}}</span>
 </div>
 @endsection
