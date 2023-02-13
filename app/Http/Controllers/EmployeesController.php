@@ -23,7 +23,7 @@ class EmployeesController extends Controller
 
         ] ;
         Employee::create($data) ;
-        return redirect(url()->previous()) ;
+        return redirect('/') ;
     }
 
     public function index(){
