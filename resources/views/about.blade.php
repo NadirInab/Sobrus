@@ -56,7 +56,6 @@
     <div id="tools" class="solutions pt-3">
         <h3 class="Our text-center text-secondary border-bottom fw-bold w-25 m-auto">Our Tools <i class="fa-solid fa-hospital-user"></i> </h3>
         <div class="container d-flex">
-
             <div class="limit w-75 m-auto p-3 border-2 border-end">
                 <img src="https://monordonnance.sobrus.com/static/media/LogoMonOrdonnance.7a6aa3db.png" alt="" srcset="" class="tools p-4 d-block m-auto">
                 <p class="text-secondary fw-bold">
