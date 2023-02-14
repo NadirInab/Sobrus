@@ -66,7 +66,6 @@ Back-end developers are the experts who build and maintain the mechanisms that p
  back-end developers are involved in data storage, security, and other server-side functions that you cannot see.
 ====================================>
 history 
-
 his story . 
 skills ==> enough knowledge in databases ==> 
 networking ==> web ==> protocolo ==> http == ftp == websockets ==> 
@@ -74,16 +73,53 @@ whu oop ==> we handle data as objects
 functional =++ actions .
 ==> design patterns ==> creational ==> behavioral ==> signlton
 
-==> solution commun probleme .
-
+==========> solution commun probleme .
 multitendancy architecture ==> tenant . 
 sigbnle softaware aplication ==> service many client . 
 not each client ==> create his own app . ==> addapte business as he want ==> at end one software that serve many client . 
 db schema . 
-
 what is tenant . 
-
 cleint == tenant ===> organization ; User ; many user ==> each one with his role ==>
 VPS ==> 
-
 sois en bone santé
+==========>
+=======>Whta is framework ============<
+A framework can include support programs, compilers, code libraries, toolsets, and APIs to develop software and create systems. 
+Open-source frameworks are always being updated and improved.
+The dictionary definition of framework as a “basic structure underlying a system” is not far off from understanding what is a framework in programming. Whether the system is a house, a car, a theory, or a mobile app, the concept of the framework is the same: it provides the support and basic ‘guide’ of the structure being built.
+
+A framework in programming is a tool that provides ready-made components or solutions that are 
+customized in order to speed up development. A framework may include a library, 
+but is defined by the principle of inversion of control (IoC). With traditional programming,
+ the custom code calls into the library to access reusable code.
+ With IoC, the framework calls on custom pieces of code when necessary.
+ =====>backend arcitecture ; ==========>
+ example ==>
+ For example, if a website designer creates a site that allows users to enter values
+  for variables in financial formulas to calculate simple and compound interest, the backend of the website calculates the answer after users type numbers into fields on the website. 
+  Although the user can't see any of the code, servers, networks or databases that process the calculation,
+  all of these elements work together in the backend design to determine the correct number and make it appear on the screen in the right place.
+
+
+
+  =========>
+  
+meals ==> title + price +image + description .
+
+business logic ==> presentation logic . 
+
+
+instead of buying a computer . rent one . 
+Companies ==>
+AWS : amazon web server 
+GCP : google cloud platform 
+MZ  : Microsoft Azure .
+
+IAAS ==> Infrastructure as a service .==> pay for what you use . 
+SAAS ==> Software As A Service .==> Pay as you go model .
+PAAS ==> Platform As a service .
+
+
+Iaas ==> infrastructure as a service 
+
+=
