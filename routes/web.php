@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\EmployeesController;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth ;
 
 Route::get('/', function(){
     return redirect('/home/employees') ;
@@ -9,15 +10,15 @@ Route::get('/', function(){
 
 Route::get('/home/employees', [EmployeesController::class, 'index']);
 
-Route::get('employees/{id}',[EmployeesController::class, 'show'] ) ;
-
 Route::post('saveEmployee',[EmployeesController::class, 'store'] ) ;
 
-Route::get('delete/{id}',[EmployeesController::class, 'destroy'] ) ;
+Route::get('employees/{id}',[EmployeesController::class, 'show'] ) ;
 
 Route::get('edit/{id}',[EmployeesController::class, 'edit'] ) ;
 
 Route::post('edit/update/{id}',[EmployeesController::class, 'update'] ) ;
+
+Route::get('delete/{id}',[EmployeesController::class, 'destroy'] ) ;
 
 Route::get('/home/employees/search', [EmployeesController::class, 'search']) ;
 
