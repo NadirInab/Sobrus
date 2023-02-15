@@ -19,7 +19,7 @@ Request response cycle ;
 ======================>
 
 Tech stack :
-Java(spring-Boot), PHP(laravel, symphony, cakephp, codigniter), Ruby on Rails, Python(Django), javascript(node js, express )
+Java(spring-Boot), PHP(laravel, symphony, cakephp, codigniter), Ruby( on Rails), Python (Django), javascript (node js, express )
 ======================>
 
 Th backend dev mainly focus on : 
@@ -52,6 +52,7 @@ JSON is a text-based data format that is used to store and transfer data.
 "name":"nadir", 
 "job" :"Nothing"
 }
+
 advantages :
 Self-describing
 Easy to manipulate
@@ -62,9 +63,11 @@ REST API ==> it's an api that follows a set of rules for an application and serv
 
 Api ??
 =============================================>
-Back-end developers are the experts who build and maintain the mechanisms that process data and perform actions on websites. Unlike front-end developers, who control everything you can see on a website,
+Back-end developers are the experts who build and maintain the mechanisms that process data and perform actions on websites.
+ Unlike front-end developers, who control everything you can see on a website,
  back-end developers are involved in data storage, security, and other server-side functions that you cannot see.
 ====================================>
+
 history 
 his story . 
 skills ==> enough knowledge in databases ==> 
@@ -73,8 +76,10 @@ whu oop ==> we handle data as objects
 functional =++ actions .
 ==> design patterns ==> creational ==> behavioral ==> signlton
 
+
 ==========> solution commun probleme .
-multitendancy architecture ==> tenant . 
+
+multitenancy architecture ==> tenant . 
 sigbnle softaware aplication ==> service many client . 
 not each client ==> create his own app . ==> addapte business as he want ==> at end one software that serve many client . 
 db schema . 
@@ -82,11 +87,14 @@ what is tenant .
 cleint == tenant ===> organization ; User ; many user ==> each one with his role ==>
 VPS ==> 
 sois en bone santé
+
 ==========>
 =======>Whta is framework ============<
 A framework can include support programs, compilers, code libraries, toolsets, and APIs to develop software and create systems. 
 Open-source frameworks are always being updated and improved.
-The dictionary definition of framework as a “basic structure underlying a system” is not far off from understanding what is a framework in programming. Whether the system is a house, a car, a theory, or a mobile app, the concept of the framework is the same: it provides the support and basic ‘guide’ of the structure being built.
+The dictionary definition of framework as a “basic structure underlying a system” is not far off from understanding what is a framework in programming. 
+Whether the system is a house, a car, a theory, or a mobile app, the concept of the framework is the same: it provides the support and basic
+ ‘guide’ of the structure being built.
 
 A framework in programming is a tool that provides ready-made components or solutions that are 
 customized in order to speed up development. A framework may include a library, 
@@ -122,4 +130,19 @@ PAAS ==> Platform As a service .
 
 Iaas ==> infrastructure as a service 
 
-=
+
+========> saas 
+
+application 
+
+data 
+
+virtualisation 
+
+storage 
+
+server 
+
+networking
+
+==> subscription business model . 
