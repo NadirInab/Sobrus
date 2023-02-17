@@ -12,6 +12,7 @@ class EmployeesController extends Controller
             "name"=> "required", 
             "role"=> "required", 
             "city"=> "required", 
+            "image"=> "required", 
             "linkdin"=> "required"
         ]) ;
         $data = [
@@ -47,6 +48,7 @@ class EmployeesController extends Controller
             'name' => 'required',
             'role' => 'required',
             'city' => 'required',
+            "image"=> "required", 
             'linkdin'=> 'required'
         ]) ;
         $data = [
