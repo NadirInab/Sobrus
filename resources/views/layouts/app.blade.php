@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="https://sobrus.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.ca5b804c.png&w=384&q=100">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="{{url('/style/style.css')}}">
+    {{-- <link rel="stylesheet" type="text/css" href="{{url('/style/style.css')}}"> --}}
+    <link rel="stylesheet" type="text/css" href="{{asset('style/style.css')}}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Sobrus</title>

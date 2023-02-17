@@ -34,7 +34,7 @@
                 </p>
                 <small><a href="http://pharma.sobrus.com/">Soburs-Pharma.</a></small>
             </div>
-            <div class="limit w-75 m-auto  p-3 border-2 border-end mx-2">
+            <div class="limit w-75 m-auto p-3 border-2 border-end mx-2">
                 <img src="https://sobrus.com/_next/image?url=%2Fassets%2Flogos%2Flabs.png&w=384&q=30" alt="" srcset="" class="p-4 d-block m-auto">
                 <p class="text-muted fw-bold ">
                     Sobrus Labs is the software for managing customer relations, communication and order taking between pharmacies, healthcare establishments and pharmaceutical laboratories.
@@ -63,14 +63,14 @@
                 </p>
                 <small> <a href="https://monordonnance.sobrus.com/">monordonnance</a></small>
             </div>
-            <div class="limit w-75 m-auto  p-3 border-2 border-end mx-2">
+            <div class="limit w-75 m-auto p-3 border-2 border-end mx-2">
                 <img src="http://monmedicament.ma/images/logo.png" alt="" srcset="" class="p-4 d-block m-auto">
                 <p class="text-muted fw-bold ">      
                     By registering on Quelmedicament.ma you will be able to receive all the news on medicines in Morocco, both price changes and new products marketed on the market.
                 </p>
                 <small><a href="http://monmedicament.ma/">monmedicament</a></small>
             </div>
-            <div class="limit w-75 m-auto  p-3">
+            <div class="limit w-75 m-auto p-3">
                 <img src="https://monpharmacien.sobrus.com/static/media/Logo%20MonPharmacien.e5de99e4.png" alt="" srcset="" class="tools p-4 d-block m-auto">
                 <p class="text-secondary fw-bold">
                     The objective of MonPharmacien is to improve the pharmacist-patient relationship, for better access to care and better follow-up of patients with their community pharmacy.
@@ -125,7 +125,6 @@
         }
         window.initMap() ;
     </script>
-    
     <script type="text/javascript"
         src="https://maps.google.com/maps/api/js?key={{ env('GOOGLE_MAP_KEY') }}&callback=initMap" ></script>
 @endsection
