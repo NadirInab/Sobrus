@@ -4,7 +4,7 @@
     <div class="form container w-50 fw-bold">
       
         <h1 class="text-center text-secondary border-bottom p-2"> <i class="fa-solid fa-user-plus"></i> Add Employee </h1>
-        <form action="saveEmployee" method="POST">
+        <form action="saveEmployee" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="form-group p-1">
               <label>Name</label>

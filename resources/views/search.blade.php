@@ -22,7 +22,7 @@
     @foreach ($employees as $employee)
     <div class="card card-body bg-light center-block text-left rounded mx-3 bg-muted m-3 text-dark" style="min-width:26%;max-width:30%" >
         <div class="w-50 m-auto text-center mb-3">
-            <img class="shad m-auto rounded-50" src="{{asset('images/'.$employee->imag).'.jfif'}}"  style="width:100px; border-radius:50px"/>
+            <img class="shad m-auto rounded-50" src="{{asset('images/'.$employee->imag)}}"  style="width:100px; border-radius:50px"/>
         </div>
         <a class="text-decoration-none border-bottom" href="{{$employee['linkdin']}}">
            <h4> <i class="fa-brands fa-linkedin"></i></h4> 

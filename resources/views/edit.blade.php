@@ -3,7 +3,7 @@
 @section('content')
     <div class="form container w-50 fw-bold">
         <h2 class="text-center">UpDate Employee </h2>
-        <form action="update/{{$employee->id}}" method="POST">
+        <form action="update/{{$employee->id}}" method="POST" enctype="multipart/form-data">
             @csrf
             <div class="form-group">
               <label>Name</label>
