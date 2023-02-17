@@ -17,11 +17,14 @@ class EmployeesController extends Controller
         $data = [
             'name' => $req->input('name'), 
             'role' => $req->input('role'), 
-            'imag' => preg_replace('/\.[^.]+$/','',$req->input('image')), 
+            // 'imag' => preg_replace('/\.[^.]+$/','',$req->input('image')), 
+            'imag' => $req->file('image')->getClientOriginalName(), 
             'city' => $req->input('city'), 
             'linkdin' => $req->input('linkdin'),
-
+            
         ] ;
+            // dd($data) ;
+        $req->image->move(public_path('images'), $data['imag']);
         Employee::create($data) ;
         return redirect('/') ;
     }
@@ -51,11 +54,11 @@ class EmployeesController extends Controller
         $data = [
             'name' => $req->input('name'), 
             'role' => $req->input('role'), 
-            'imag' => preg_replace('/\.[^.]+$/','',$req->input('image')), 
+            'imag' => $req->file('image')->getClientOriginalName(), 
             'city' => $req->input('city'), 
             'linkdin' => $req->input('linkdin'),
         ] ;
-
+        $req->image->move(public_path('images'), $data['imag']);
         Employee::where('id', $id)->update($data);
         return redirect('/') ;
     }
