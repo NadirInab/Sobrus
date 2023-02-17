@@ -26,6 +26,7 @@
             <div class="form-group p-1">
               <label>Image</label>
               <input name="image" type="file" class="form-control" placeholder="Upload Image">
+              <span class="text-danger border-bottom"> @error('image'){{$message}} @enderror</span>
 
             </div>
             <div class="form-group p-1">

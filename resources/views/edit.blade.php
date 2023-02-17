@@ -25,6 +25,8 @@
             <div class="form-group">
               <label>Image</label>
               <input name="image" type="file" class="form-control" placeholder="Upload Image" value="{{$employee->imag}}">
+              <span class="text-danger border-bottom">@error('image'){{$message}} @enderror</span>
+
             </div>
 
             <div class="form-group">
